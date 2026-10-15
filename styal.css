@@ -1,4 +1,4 @@
-/* إعدادات المتغيرات العامة */
+
 :root {
     --bg-dark: #070e17;
     --card-bg: #0f1c2e;
@@ -21,7 +21,7 @@ body {
     overflow-x: hidden;
 }
 
-/* ================= 1. الهيدر (Header) ================= */
+/* ================= 1. (Header) ================= */
 header {
     display: flex;
     justify-content: space-between;
@@ -88,7 +88,7 @@ header {
     cursor: pointer;
 }
 
-/* ================= 2. القسم الرئيسي (Hero Section) ================= */
+/* ================= 2 (Hero Section) ================= */
 .hero-section {
     display: flex;
     align-items: center;
@@ -192,7 +192,7 @@ header {
     filter: drop-shadow(0 20px 30px rgba(0,0,0,0.6));
 }
 
-/* ================= 3. سكشن من نحن (About Section) - جديد ================= */
+/* ================= 3.(About Section) ================= */
 .about-section {
     padding: 100px 60px;
     background-color: #060b12;
@@ -298,7 +298,7 @@ header {
     margin-top: 5px;
 }
 
-/* ================= 4. سكشن المميزات (Features) ================= */
+/* ================= 4.(Features) ================= */
 .features-section {
     padding: 100px 60px;
     background-color: var(--bg-dark);
@@ -382,7 +382,7 @@ header {
     line-height: 1.5;
 }
 
-/* ================= 5. سكشن الأسعار (Pricing Plans) ================= */
+/* ================= 5.(Pricing Plans) ================= */
 .pricing-section {
     padding: 100px 60px;
     text-align: center;
@@ -484,7 +484,7 @@ header {
     display: block;
 }
 
-/* ================= 6. سكشن الآراء (Testimonials) ================= */
+/* ================= 6.(Testimonials) ================= */
 .testimonials-section {
     padding: 100px 60px;
     background-color: var(--bg-dark);
@@ -589,7 +589,7 @@ header {
     border-radius: 10px;
 }
 
-/* ================= التجاوب (Responsive) ================= */
+/* ================= ا(Responsive) ================= */
 @media (max-width: 1024px) {
     header, .hero-section, .about-section, .features-section, .pricing-section, .testimonials-section {
         padding-left: 30px;
